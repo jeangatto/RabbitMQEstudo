@@ -1,9 +1,17 @@
-﻿
-Microsoft Visual Studio Solution File, Format Version 12.00
+﻿Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitWebApp", "RabbitWebApp.csproj", "{3C92A843-6CC6-414D-9CA7-1F5A8D3798B9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "RabbitWebApp", "src\RabbitWebApp.csproj", "{3C92A843-6CC6-414D-9CA7-1F5A8D3798B9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C9D68946-1B90-46A8-B21A-9D52B27B0504}"
+	ProjectSection(SolutionItems) = preProject
+		..\.editorconfig = ..\.editorconfig
+		..\.gitattributes = ..\.gitattributes
+		..\.gitignore = ..\.gitignore
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{6CFD176E-5B59-429F-BF3F-B716A1804F29}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -18,6 +26,9 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{3C92A843-6CC6-414D-9CA7-1F5A8D3798B9} = {6CFD176E-5B59-429F-BF3F-B716A1804F29}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {2397ADF7-6104-494B-9C2D-1C309C196FFC}
